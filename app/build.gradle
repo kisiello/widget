@@ -1,0 +1,25 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.armor34.socwidget'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.armor34.socwidget'
+        minSdk 29
+        targetSdk 35
+        versionCode 2
+        versionName '2.0-phone-only-experimental'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    buildFeatures { aidl true }
+}
+
+dependencies {
+    implementation 'dev.rikka.shizuku:api:13.1.5'
+    implementation 'dev.rikka.shizuku:provider:13.1.5'
+}

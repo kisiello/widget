@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Armor SoC Widget</string>
+    <string name="widget_description">Estimated SoC from on-device MediaTek gauge logs</string>
+</resources>
